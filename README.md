@@ -23,7 +23,7 @@
 2、实现```-(BOOL)yy_navagationControllerShouldPopWhenSystemBackItemClick:```协议，返回 **NO**
 
 ```
--(BOOL)tj_navagationControllerShouldPopWhenSystemBackItemClick:(TJNavigationController *)navigationController{
+-(BOOL)yy_navagationControllerShouldPopWhenSystemBackItemClick:(TJNavigationController *)navigationController{
     
     [[[UIAlertView alloc] initWithTitle:nil
                                 message:@"我就问你，确定要返回吗？"
@@ -35,6 +35,7 @@
     return NO;
 }
 ```
+but 这里有个问题，滑动返回并不会触发这个函数，原文有实现，以后在增加。
 
 
 # License
