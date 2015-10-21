@@ -6,7 +6,7 @@
 # Demo 1 
 收集自微博上看到的 [@我的眼里只有代码](http://weibo.com/fuckingcode)，根据个人理解稍作封装、修改、优化。这里是 [原工程地址](https://github.com/NoCodeNoWife/LLRiseTabBar-iOS)
 
-![view demo](https://github.com/iOSBIGDay/iOS.Big.Day.Communication.High.Bige.Group/blob/master/Demo/TJRiseTabBarDemo/ScreenShot/home.png?raw=true)
+![view demo](https://github.com/devtofu/TJRiseTabBarDemo/blob/master/TJRiseTabBarDemo/ScreenShot/home.png?raw=true)
 
 #### Basic Usage
 1、共3个类`LLTabBar` `LLTabBarItem` `TJTabbarController`，图标名称的修改写在 **TJTabbarController** 
