@@ -9,8 +9,9 @@
 ![view demo](https://github.com/iOSBIGDay/iOS.Big.Day.Communication.High.Bige.Group/blob/master/Demo/TJRiseTabBarDemo/ScreenShot/home.png?raw=true)
 
 #### Basic Usage
-1、共3个类`LLTabBar` `LLTabBarItem` `TJTabbarController`，图标名称的修改写在 **TJTabbarController** 里
-2、在 `Applegate` 里之接设置 `self.window.rootViewController = tabbarController`
+1、共3个类`LLTabBar` `LLTabBarItem` `TJTabbarController`，图标名称的修改写在 **TJTabbarController** 
+
+2、设置 `self.window.rootViewController = tabbarController`
 
 ## Demo 2
 收集自 [Dashing_Pro](http://www.jianshu.com/users/9e4ad2be1304/latest_articles) 简书上的一篇文章 [原文地址](http://www.jianshu.com/p/6376149a2c4c)，非常好的想法，通过一些手段将系统navigationBar的pop代理开放出来，替换成自己的实现，达到监听返回点击事件的效果。
@@ -18,6 +19,7 @@
 #### Basic Usage
 1、遵守定义的协议
   ```<YYNavigationControllerShouldPopProtocol>```
+  
   
 2、实现```-(BOOL)yy_navagationControllerShouldPopWhenSystemBackItemClick:```协议，返回 **NO**
 
