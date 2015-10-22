@@ -7,9 +7,9 @@
 //
 
 #import "TJPushViewController.h"
-#import "TJNavigationControllerShouldPopProtocol.h"
+#import "YYNavigationControllerShouldPopProtocol.h"
 
-@interface TJPushViewController ()<TJNavigationControllerShouldPopProtocol>
+@interface TJPushViewController ()<YYNavigationControllerShouldPopProtocol>
 
 @end
 
@@ -27,7 +27,7 @@
 }
 
 #pragma mark - ShouldPop Delegate
--(BOOL)tj_navagationControllerShouldPopWhenSystemBackItemClick:(TJNavigationController *)navigationController{
+-(BOOL)yy_navagationControllerShouldPopWhenSystemBackItemClick:(TJNavigationController *)navigationController{
     
     [[[UIAlertView alloc] initWithTitle:nil
                                 message:@"我就问你，确定要返回吗？"

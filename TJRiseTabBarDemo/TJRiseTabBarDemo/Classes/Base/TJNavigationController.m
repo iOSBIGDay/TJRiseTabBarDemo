@@ -7,7 +7,7 @@
 //
 
 #import "TJNavigationController.h"
-#import "TJNavigationControllerShouldPopProtocol.h"
+#import "YYNavigationControllerShouldPopProtocol.h"
 
 
 @interface UINavigationController (UINavigationControllerNeedPop)
@@ -50,8 +50,8 @@
         return [super navigationBar:navigationBar shouldPopItem:item];
     }
     
-    if ([vc conformsToProtocol:@protocol(TJNavigationControllerShouldPopProtocol) ]) {
-        if ([(id<TJNavigationControllerShouldPopProtocol>)vc tj_navagationControllerShouldPopWhenSystemBackItemClick:self]) {
+    if ([vc conformsToProtocol:@protocol(YYNavigationControllerShouldPopProtocol) ]) {
+        if ([(id<YYNavigationControllerShouldPopProtocol>)vc yy_navagationControllerShouldPopWhenSystemBackItemClick:self]) {
             return [super navigationBar:navigationBar shouldPopItem:item];
         }else{
             return NO;

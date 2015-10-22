@@ -70,10 +70,10 @@
 		CC43D1DA1BD76A4C0050DE93 /* LLTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLTabBarItem.h; sourceTree = "<group>"; };
 		CC43D1DB1BD76A4C0050DE93 /* LLTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLTabBarItem.m; sourceTree = "<group>"; };
 		CC43D1ED1BD76B7D0050DE93 /* IMG_0344.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0344.jpg; sourceTree = "<group>"; };
-		CC43D1FB1BD78C020050DE93 /* TJNavigationControllerShouldPopProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TJNavigationControllerShouldPopProtocol.h; sourceTree = "<group>"; };
 		CC43D1FD1BD78CBD0050DE93 /* TJPushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJPushViewController.h; sourceTree = "<group>"; };
 		CC43D1FE1BD78CBD0050DE93 /* TJPushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJPushViewController.m; sourceTree = "<group>"; };
 		CC43D1FF1BD78CBD0050DE93 /* TJPushViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TJPushViewController.xib; sourceTree = "<group>"; };
+		CCBD0EF11BD8BA7300FCA280 /* YYNavigationControllerShouldPopProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYNavigationControllerShouldPopProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,7 +144,7 @@
 		CC43D1BD1BD76A4C0050DE93 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				CC43D1FB1BD78C020050DE93 /* TJNavigationControllerShouldPopProtocol.h */,
+				CCBD0EF11BD8BA7300FCA280 /* YYNavigationControllerShouldPopProtocol.h */,
 				CC43D1BE1BD76A4C0050DE93 /* TJBaseViewController.h */,
 				CC43D1BF1BD76A4C0050DE93 /* TJBaseViewController.m */,
 				CC43D1C01BD76A4C0050DE93 /* TJNavigationController.h */,
