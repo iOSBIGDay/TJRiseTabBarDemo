@@ -1,7 +1,7 @@
 # TJRiseTabBarDemo
 
 # Overview
-**TJRiseTabBarDemo** 包含自定义 **TabBar** , 自定义 **NavigationBar**
+**TJRiseTabBarDemo** 包含自定义 **TabBar** ,  **拦截系统返回函数**
 
 # Demo 1 
 收集自微博上看到的 [@我的眼里只有代码](http://weibo.com/fuckingcode)，根据个人理解稍作封装、修改、优化。这里是 [原工程地址](https://github.com/NoCodeNoWife/LLRiseTabBar-iOS)
@@ -36,6 +36,8 @@
 }
 ```
 but 这里有个问题，滑动返回并不会触发这个函数，原文有实现，以后在增加。
+
+![view demo](https://github.com/devtofu/TJRiseTabBarDemo/blob/master/TJRiseTabBarDemo/ScreenShot/screenshot.gif?raw=true)
 
 
 # License
