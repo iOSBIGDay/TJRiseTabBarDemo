@@ -27,6 +27,9 @@
 }
 
 #pragma mark - ShouldPop Delegate
+/**
+ *  实现该协议已达到拦截系统返回按钮点击的效果
+ */
 -(BOOL)yy_navagationControllerShouldPopWhenSystemBackItemClick:(TJNavigationController *)navigationController{
     
     [[[UIAlertView alloc] initWithTitle:nil
