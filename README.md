@@ -37,6 +37,8 @@
 ```
 but 这里有个问题，滑动返回并不会触发这个函数，原文有实现，以后在增加。
 
+![view demo](https://github.com/devtofu/TJRiseTabBarDemo/blob/master/TJRiseTabBarDemo/ScreenShot/screenshot.gif?raw=true)
+
 
 # License
 
